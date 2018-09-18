@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+	<title>login</title>
+</h:head>
+
+<h:body>
+
+	<h:form id="formLogin">
+
+		<h:messages />
+
+		<h:panelGrid columns="2">
+			<f:facet name="header">
+				<h:outputText value="Bem Vindo Ao Sistema de Ecommerce" />
+			</f:facet>
+
+			<h:outputLabel value="Login:" />
+			<h:inputText value="#{loginBean.cliente.nomeUsuario}" />
+
+			<h:outputLabel value="Senha:" />
+			<h:inputSecret value="#{loginBean.cliente.senhaUsuario}" />
+
+			<h:outputLabel />
+			<h:panelGroup>
+				<h:commandButton value="Login" action="#{loginBean.efetuarLogin()}" />
+			</h:panelGroup>
+
+			<h:outputLabel />
+			<h:panelGroup>
+				<h:commandButton value="Cadastrar"
+					action="#{loginBean.efetuarCadastro()}" />
+			</h:panelGroup>
+
+		</h:panelGrid>
+
+	</h:form>
+
+</h:body>
+
+</html>
