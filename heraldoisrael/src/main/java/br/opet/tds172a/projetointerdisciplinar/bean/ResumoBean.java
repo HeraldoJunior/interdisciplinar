@@ -38,7 +38,7 @@ public class ResumoBean implements Serializable {
 
 		this.getCliente();
 
-		this.clienteController = new ClienteController();
+		this.setClienteController(new ClienteController());
 	}
 
 	/**
@@ -84,6 +84,20 @@ public class ResumoBean implements Serializable {
 
 		return "/pages/login";
 
+	}
+
+	/**
+	 * @return the clienteController
+	 */
+	public ClienteController getClienteController() {
+		return clienteController;
+	}
+
+	/**
+	 * @param clienteController the clienteController to set
+	 */
+	public void setClienteController(ClienteController clienteController) {
+		this.clienteController = clienteController;
 	}
 
 }
