@@ -54,7 +54,7 @@ public class ClienteModel {
 	 * @return
 	 */
 	public Cliente efetuarLogin(Cliente cliente) {
-		// TODO Auto-generated method stub
+
 		return this.clienteDAO.efetuarLogin(cliente);
 	}
 

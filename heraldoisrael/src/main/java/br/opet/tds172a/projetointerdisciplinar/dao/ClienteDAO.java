@@ -60,7 +60,7 @@ public class ClienteDAO implements ICliente {
 			PreparedStatement pstmt = null;
 			// preparar a query
 			pstmt = connection.prepareStatement("INSERT INTO TB_CLIENTE"
-					+ "(IDTB_CLI,NM_CLI,CPF_CLI,END_CLI,DATA_NASC_CLI,TELCEL_CLI,TELFIXO_CLI,NM_USUARIO,SENHA_USUARIO,DDD_TELFIXO,DDD_TELCEL,idTIPO_USUARIO)"
+					+ "(IDTB_CLI,NM_CLI,CPF_CLI,END_CLI,DATA_NASC_CLI,TELCEL_CLI,TELFIXO_CLI,NM_USUARIO,SENHA_USUARIO,DDD_TELFIXO,DDD_TELCEL,TIPO_USUARIO_IDTIPO_USUARIO)"
 					+ "VALUES(TB_CLIENTE_AUTO_INCR.NEXTVAL,?,?,?,?,?,?,?,?,?,?,?)");
 
 			pstmt.setString(1, cliente.getNomeCliente());

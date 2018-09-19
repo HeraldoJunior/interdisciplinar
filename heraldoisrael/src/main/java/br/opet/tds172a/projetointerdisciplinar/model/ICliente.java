@@ -1,7 +1,5 @@
 package br.opet.tds172a.projetointerdisciplinar.model;
 
-import java.util.List;
-
 import br.opet.tds172a.projetointerdisciplinar.vo.Cliente;
 /**
  * interface que contem os metodos padrões a serem utilizados 

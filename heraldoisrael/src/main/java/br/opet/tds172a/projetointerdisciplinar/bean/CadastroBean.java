@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package br.opet.tds172a.projetointerdisciplinar.bean;
 
 import java.io.Serializable;
@@ -39,8 +37,7 @@ public class CadastroBean implements Serializable {
 	}
 
 	/**
-	 * @param cliente
-	 *            the cliente to set
+	 * @param cliente the cliente to set
 	 */
 	public void setCliente(Cliente cliente) {
 		this.cliente = cliente;
@@ -52,7 +49,7 @@ public class CadastroBean implements Serializable {
 	 * @return
 	 */
 	public String inserirCliente() {
-		
+
 		FacesContext contexto = FacesContext.getCurrentInstance();
 
 		boolean deuCerto;
@@ -105,8 +102,7 @@ public class CadastroBean implements Serializable {
 	}
 
 	/**
-	 * @param clienteController
-	 *            the clienteController to set
+	 * @param clienteController the clienteController to set
 	 */
 	public void setClienteController(ClienteController clienteController) {
 		this.clienteController = clienteController;
@@ -139,9 +135,11 @@ public class CadastroBean implements Serializable {
 		}
 
 	}
+
 	/**
 	 * 
 	 * Metodo de alteração de cliente
+	 * 
 	 * @return
 	 */
 	public String alterarCliente() {

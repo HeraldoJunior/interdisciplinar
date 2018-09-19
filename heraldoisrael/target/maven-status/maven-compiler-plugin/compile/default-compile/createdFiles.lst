@@ -1,0 +1,11 @@
+br\opet\tds172a\projetointerdisciplinar\bean\LoginBean.class
+br\opet\tds172a\projetointerdisciplinar\vo\Produto.class
+br\opet\tds172a\projetointerdisciplinar\model\ClienteModel.class
+br\opet\tds172a\projetointerdisciplinar\dao\ClienteDAO.class
+br\opet\tds172a\projetointerdisciplinar\vo\Cliente.class
+br\opet\tds172a\projetointerdisciplinar\controller\ClienteController.class
+br\opet\tds172a\projetointerdisciplinar\model\ICliente.class
+br\opet\tds172a\projetointerdisciplinar\util\MyReader.class
+br\opet\tds172a\projetointerdisciplinar\bean\CadastroBean.class
+br\opet\tds172a\projetointerdisciplinar\bean\ResumoBean.class
+br\opet\tds172a\projetointerdisciplinar\bean\ProdutosBean.class
